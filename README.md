@@ -10,16 +10,16 @@ Doppler lidar measurements collected by the Tongji University Wind Engineering T
 
 Observation CSVs are grouped by typhoon, data type, date and hour. All use the same 20 columns; missing values are blank. See [column meanings, units and quality flags](#csv-columns).
 
-| Year | Typhoon |
-|---|---|
-| 2017 | [Khanun](data/2017_20_Khanun/README.md) |
-| 2018 | [Mangkhut](data/2018_22_Mangkhut/README.md) |
-| 2019 | [Lekima](data/2019_09_Lekima/README.md) |
-| 2020 | [Hagupit](data/2020_04_Hagupit/README.md) |
-| 2020 | [Higos](data/2020_07_Higos/README.md) |
-| 2022 | [Ma-on](data/2022_09_Maon/README.md) |
-| 2022 | [Muifa](data/2022_12_Muifa/README.md) |
-| 2024 | [Kong-rey](data/2024_21_Kongrey/README.md) |
+| Year | Typhoon | Latitude (°N) | Longitude (°E) |
+|---|---|---:|---:|
+| 2017 | [Khanun](data/2017_20_Khanun/README.md) 20.2415 | 110.1654 |
+| 2018 | [Mangkhut](data/2018_22_Mangkhut/README.md) 20.2415 | 110.1654 |
+| 2019 | [Lekima](data/2019_09_Lekima/README.md) 28.10780 | 120.99680 |
+| 2020 | [Hagupit](data/2020_04_Hagupit/README.md) 27.8 | 121.1 |
+| 2020 | [Higos](data/2020_07_Higos/README.md) 22.3038 | 113.0634 |
+| 2022 | [Ma-on](data/2022_09_Maon/README.md) 22.80807 | 113.61808 |
+| 2022 | [Muifa](data/2022_12_Muifa/README.md) 30.0095 | 121.8666 |
+| 2024 | [Kong-rey](data/2024_21_Kongrey/README.md) 31.04728 | 121.39330 |
 
 #### Browse and download the complete data
 
@@ -132,16 +132,16 @@ Contact: Wei Cui (崔巍) — [cuiwei@tongji.edu.cn](mailto:cuiwei@tongji.edu.cn
 
 观测 CSV 按“台风 / 数据类型 / 日期 / 小时”存放，统一使用 20 列，缺失项留空。详见[各列含义、单位和质量标记](#列说明)。
 
-| 年份 | 台风 |
-|---|---|
-| 2017 | [卡努](data/2017_20_Khanun/README_zh.md) |
-| 2018 | [山竹](data/2018_22_Mangkhut/README_zh.md) |
-| 2019 | [利奇马](data/2019_09_Lekima/README_zh.md) |
-| 2020 | [黑格比](data/2020_04_Hagupit/README_zh.md) |
-| 2020 | [海高斯](data/2020_07_Higos/README_zh.md) |
-| 2022 | [马鞍](data/2022_09_Maon/README_zh.md) |
-| 2022 | [梅花](data/2022_12_Muifa/README_zh.md) |
-| 2024 | [康妮](data/2024_21_Kongrey/README_zh.md) |
+| 年份 | 台风 | 纬度（°N） | 经度（°E） |
+|---|---|---:|---:|
+| 2017 | [卡努](data/2017_20_Khanun/README_zh.md) 20.2415 | 110.1654 |
+| 2018 | [山竹](data/2018_22_Mangkhut/README_zh.md) 20.2415 | 110.1654 |
+| 2019 | [利奇马](data/2019_09_Lekima/README_zh.md) 28.10780 | 120.99680 |
+| 2020 | [黑格比](data/2020_04_Hagupit/README_zh.md) 27.8 | 121.1 |
+| 2020 | [海高斯](data/2020_07_Higos/README_zh.md) 22.3038 | 113.0634 |
+| 2022 | [马鞍](data/2022_09_Maon/README_zh.md) 22.80807 | 113.61808 |
+| 2022 | [梅花](data/2022_12_Muifa/README_zh.md) 30.0095 | 121.8666 |
+| 2024 | [康妮](data/2024_21_Kongrey/README_zh.md) 31.04728 | 121.39330 |
 
 #### 浏览与下载完整数据
 
