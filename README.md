@@ -37,7 +37,7 @@ For a radial-wind CSV, set `quantity = 'radial_wind_speed_mps'` in `main.m`.
 
 ### Paper figures
 
-Wind figures read the observation CSVs directly from `data/` and calculate statistics when run. Place the complete observation data in that folder; map files and the instrument photograph are in `paper_figures/assets/`.
+Wind figures read the observation CSVs directly from `data/` and calculate statistics when run. 
 
 Run [plot_paper_figures.m](plot_paper_figures.m) to generate nine figures in `paper_figures/output`. Set `figureNumbers` to select figures. See the [figure descriptions](figure_README.md). Tested with MATLAB R2026a.
 
@@ -80,7 +80,7 @@ data = main_function(filename);
 
 ### 论文绘图
 
-风观测图直接读取 `data/` 中的 CSV，并在运行时计算统计量。请将完整观测数据放入该目录；地图文件和仪器照片保存在 `paper_figures/assets/`。
+风观测图直接读取 `data/` 中的 CSV，并在运行时计算统计量。
 
 运行 [plot_paper_figures.m](plot_paper_figures.m) 生成 9 张图，保存至 `paper_figures/output`。修改 `figureNumbers` 可选择出图范围，详见[绘图说明](figure_README_zh.md)。代码已在 MATLAB R2026a 中运行验证。
 
