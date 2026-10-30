@@ -10,7 +10,7 @@ Doppler lidar measurements collected by the Tongji University Wind Engineering T
 
 Observation CSVs are grouped by typhoon, data type, date and hour. All use the same 20 columns; missing values are blank. See [column meanings, units and quality flags](#csv-columns).
 
-| Year | Typhoon | Latitude (°N) | Longitude (°E) |
+| Year | Typhoon | Observation Latitude (°N) |Observation Longitude (°E) |
 |---|---|---:|---:|
 | 2017 | [Khanun](data/2017_20_Khanun/README.md) | 20.2415 | 110.1654 |
 | 2018 | [Mangkhut](data/2018_22_Mangkhut/README.md) | 20.2415 | 110.1654 |
@@ -132,7 +132,7 @@ Contact: Wei Cui (崔巍) — [cuiwei@tongji.edu.cn](mailto:cuiwei@tongji.edu.cn
 
 观测 CSV 按“台风 / 数据类型 / 日期 / 小时”存放，统一使用 20 列，缺失项留空。详见[各列含义、单位和质量标记](#列说明)。
 
-| 年份 | 台风 | 纬度（°N） | 经度（°E） |
+| 年份 | 台风 | 观测位置纬度（°N） | 观测位置经度（°E） |
 |---|---|---:|---:|
 | 2017 | [卡努](data/2017_20_Khanun/README_zh.md) | 20.2415 | 110.1654 |
 | 2018 | [山竹](data/2018_22_Mangkhut/README_zh.md) | 20.2415 | 110.1654 |
