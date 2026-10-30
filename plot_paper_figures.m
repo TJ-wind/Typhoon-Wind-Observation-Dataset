@@ -25,7 +25,7 @@ if ismember(1, figureNumbers)
     f = newFigure(18, 17.6);
     ax = axes(f, 'Position', [1/18 7.75/17.6 16.35/18 (16.35*64/114)/17.6]);
     drawMap(ax, [70 184 -8 56], [80 100 120 140 160 180], [0 20 40], parts, relief);
-    panelTitle(ax, '(a) China and complete typhoon tracks');
+    panelTitle(ax, '(a) Complete typhoon tracks');
     handles = drawTracks(ax, tracks, [1720 1822 1909 2004 2007 2209 2212 2421]);
     drawSites(ax, sites, true);
     rectangle(ax, 'Position', [108.5 19.3 6.7 5.2], 'LineStyle', '--', 'LineWidth', .65);
@@ -278,7 +278,9 @@ bars=findall(f,'Type','colorbar');
 for k=1:numel(bars),bars(k).FontName='Microsoft YaHei';bars(k).FontSize=8;bars(k).Label.FontSize=8;end
 drawnow;exportgraphics(f,fullfile(folder,[stem '.pdf']),'ContentType','vector','BackgroundColor','white');
 exportgraphics(f,fullfile(folder,[stem '.png']),'Resolution',800,'BackgroundColor','white');
-exportgraphics(f,fullfile(folder,[stem '_preview.png']),'Resolution',150,'BackgroundColor','white');
+if ~strcmp(stem,'china_typhoon_map')
+    exportgraphics(f,fullfile(folder,[stem '_preview.png']),'Resolution',150,'BackgroundColor','white');
+end
 fprintf('Saved %s\n',stem);close(f);
 end
 function clockAxis(ax,last)
