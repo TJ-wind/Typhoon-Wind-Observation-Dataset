@@ -35,12 +35,6 @@ if ismember(1, figureNumbers)
         'Higos (2020)','Ma-on (2022)','Muifa (2022)','Kong-rey (2024)'};
     lg = legend(ax, handles, names, 'NumColumns', 2, 'Location', 'southwest', 'Box', 'off');
     lg.Color = 'white'; lg.FontSize = 8; lg.FontName = 'Microsoft YaHei';
-    % The inset's lower and right edges coincide with the main map frame.
-    p = ax.Position; iw = .12*p(3); ih = iw*18/17.6*25/20;
-    inset = axes(f, 'Position', [p(1)+p(3)-iw p(2) iw ih]);
-    drawMap(inset, [105 125 0 25], [], [], parts, relief);
-    assert(abs(inset.Position(1)+inset.Position(3)-p(1)-p(3))<1e-9);
-    assert(abs(inset.Position(2)-p(2))<1e-9);
     ax = axes(f, 'Position', [1/18 .95/17.6 7/18 (7*5.2/6.7)/17.6]);
     drawMap(ax, [108.5 115.2 19.3 24.5], [110 112 114], [20 22 24], parts, relief);
     panelTitle(ax, '(b) Southern coast'); drawTracks(ax, tracks, [1720 1822 2007 2209]); drawSites(ax, sites, false);
@@ -307,8 +301,6 @@ for j=1:numel(parts)
  switch R.kind(1)
   case 'lakes',fill(ax,x,y,[.57 .72 .86],'EdgeColor','none');
   case 'rivers',plot(ax,x,y,'Color',[.57 .72 .86],'LineWidth',.38);
-  case 'ten_dash',plot(ax,x,y,'k','LineWidth',1.1);
-  otherwise,plot(ax,x,y,'k','LineWidth',.4);
  end
 end
 xlim(ax,extent(1:2));ylim(ax,extent(3:4));daspect(ax,[1 1 1]);xticks(ax,xt);yticks(ax,yt);
