@@ -87,8 +87,6 @@ All observation rows and source quality flags are retained. `main.m` plots finit
 
 ### Paper figures
 
-Wind figures read the observation CSVs directly from `data/` and calculate statistics when run. Place the complete observation data in that folder; map files and the instrument photograph are in `paper_figures/assets/`.
-
 Run [plot_paper_figures.m](plot_paper_figures.m) to generate nine figures in `paper_figures/output`. Set `figureNumbers` to select figures. Tested with MATLAB R2026a.
 
 <details>
@@ -210,8 +208,6 @@ MAT 的原 `MatWindX` 正方向为向南，`MatWindY` 正方向为向西，因�
 </details>
 
 ### 论文绘图
-
-风观测图直接读取 `data/` 中的 CSV，并在运行时计算统计量。请将完整观测数据放入该目录；地图文件和仪器照片保存在 `paper_figures/assets/`。
 
 运行 [plot_paper_figures.m](plot_paper_figures.m) 生成 9 张图，保存至 `paper_figures/output`。修改 `figureNumbers` 可选择出图范围。代码已在 MATLAB R2026a 中运行验证。
 
