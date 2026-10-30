@@ -21,9 +21,11 @@ Observation CSVs are grouped by typhoon, data type, date and hour. All use the s
 | 2022 | [Muifa](data/2022_12_Muifa/README.md) |
 | 2024 | [Kong-rey](data/2024_21_Kongrey/README.md) |
 
-#### Download the complete data
+#### Browse and download the complete data
 
-Download [data1.zip](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/raw/refs/heads/main/data1.zip) and [data2.zip](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/raw/refs/heads/main/data2.zip). Extract both ZIP files into the `data/` folder in the repository root. Each archive contains four typhoon directories; together they provide all eight events. SHA256 checksums are listed in [SHA256SUMS.txt](SHA256SUMS.txt).
+The complete [data/ directory](data/) contains all 1,071 observation CSV files and 16 documentation files, with the original typhoon, data-type, date and hour folders. Browse individual files using the links above, or clone the repository to obtain the directory.
+
+ZIP downloads are also available: [data1.zip](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/raw/refs/heads/main/data1.zip) and [data2.zip](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/raw/refs/heads/main/data2.zip). Extract both into `data/`; each ZIP contains four typhoon directories. Archive checksums are listed in [SHA256SUMS.txt](SHA256SUMS.txt).
 
 ### Read and plot
 
@@ -143,9 +145,11 @@ Contact: Wei Cui (崔巍) — [cuiwei@tongji.edu.cn](mailto:cuiwei@tongji.edu.cn
 | 2022 | [梅花](data/2022_12_Muifa/README_zh.md) |
 | 2024 | [康妮](data/2024_21_Kongrey/README_zh.md) |
 
-#### 下载完整数据
+#### 浏览与下载完整数据
 
-下载 [data1.zip](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/raw/refs/heads/main/data1.zip) 和 [data2.zip](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/raw/refs/heads/main/data2.zip)，将两个 ZIP 分别解压到仓库根目录下的 `data/` 文件夹。每个压缩包包含 4 场台风的目录，两个包合计覆盖全部 8 场台风。SHA256 校验值见 [SHA256SUMS.txt](SHA256SUMS.txt)。
+完整的 [data/ 目录](data/) 包含全部 1,071 个观测 CSV 和 16 个说明文件，保留“台风 / 数据类型 / 日期 / 小时”的原始目录结构。可通过上表链接浏览各场台风的文件，也可克隆仓库获得完整目录。
+
+也可下载 [data1.zip](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/raw/refs/heads/main/data1.zip) 和 [data2.zip](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/raw/refs/heads/main/data2.zip)，分别解压到 `data/` 文件夹。每个压缩包包含 4 场台风的目录，压缩包的 SHA256 校验值见 [SHA256SUMS.txt](SHA256SUMS.txt)。
 
 ### 读取与绘图
 
