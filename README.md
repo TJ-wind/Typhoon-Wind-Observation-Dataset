@@ -21,6 +21,10 @@ Observation CSVs are grouped by typhoon, data type, date and hour. All use the s
 | 2022 | [Muifa](data/2022_12_Muifa/README.md) |
 | 2024 | [Kong-rey](data/2024_21_Kongrey/README.md) |
 
+#### Download the complete data
+
+Download [data1.zip](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/raw/refs/heads/main/data1.zip) and [data2.zip](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/raw/refs/heads/main/data2.zip). Extract both ZIP files into the `data/` folder in the repository root. Each archive contains four typhoon directories; together they provide all eight events. SHA256 checksums are listed in [SHA256SUMS.txt](SHA256SUMS.txt).
+
 ### Read and plot
 
 Set the repository root as MATLAB's current folder. Open [main.m](main.m), edit `filename`, then run. This gives a table named `data` and one wind profile plot.
@@ -140,6 +144,10 @@ Contact: Wei Cui (崔巍) — [cuiwei@tongji.edu.cn](mailto:cuiwei@tongji.edu.cn
 | 2022 | [马鞍](data/2022_09_Maon/README_zh.md) |
 | 2022 | [梅花](data/2022_12_Muifa/README_zh.md) |
 | 2024 | [康妮](data/2024_21_Kongrey/README_zh.md) |
+
+#### 下载完整数据
+
+下载 [data1.zip](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/raw/refs/heads/main/data1.zip) 和 [data2.zip](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/raw/refs/heads/main/data2.zip)，将两个 ZIP 分别解压到仓库根目录下的 `data/` 文件夹。每个压缩包包含 4 场台风的目录，两个包合计覆盖全部 8 场台风。SHA256 校验值见 [SHA256SUMS.txt](SHA256SUMS.txt)。
 
 ### 读取与绘图
 
