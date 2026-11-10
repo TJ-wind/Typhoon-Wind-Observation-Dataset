@@ -12,18 +12,18 @@ Observation CSVs are grouped by typhoon, data type, date and hour. All use the s
 
 | Year | Typhoon | Observation Latitude (°N) |Observation Longitude (°E) |
 |---|---|---:|---:|
-| 2017 | [Khanun](data/2017_20_Khanun/README.md) | 20.2415 | 110.1654 |
-| 2018 | [Mangkhut](data/2018_22_Mangkhut/README.md) | 20.2415 | 110.1654 |
-| 2019 | [Lekima](data/2019_09_Lekima/README.md) | 28.10780 | 120.99680 |
-| 2020 | [Hagupit](data/2020_04_Hagupit/README.md) | 27.8 | 121.1 |
-| 2020 | [Higos](data/2020_07_Higos/README.md) | 22.3038 | 113.0634 |
-| 2022 | [Ma-on](data/2022_09_Maon/README.md) | 22.80807 | 113.61808 |
-| 2022 | [Muifa](data/2022_12_Muifa/README.md) | 30.0095 | 121.8666 |
-| 2024 | [Kong-rey](data/2024_21_Kongrey/README.md) | 31.04728 | 121.39330 |
+| 2017 | [Khanun](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/releases/download/v1.0.1/2017_20_Khanun_CSV.zip) | 20.2415 | 110.1654 |
+| 2018 | [Mangkhut](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/releases/download/v1.0.1/2018_22_Mangkhut_CSV.zip) | 20.2415 | 110.1654 |
+| 2019 | [Lekima](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/releases/download/v1.0.1/2019_09_Lekima_CSV.zip) | 28.10780 | 120.99680 |
+| 2020 | [Hagupit](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/releases/download/v1.0.1/2020_04_Hagupit_CSV.zip) | 27.8 | 121.1 |
+| 2020 | [Higos](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/releases/download/v1.0.1/2020_07_Higos_CSV.zip) | 22.3038 | 113.0634 |
+| 2022 | [Ma-on](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/releases/download/v1.0.1/2022_09_Maon_CSV.zip) | 22.80807 | 113.61808 |
+| 2022 | [Muifa](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/releases/download/v1.0.1/2022_12_Muifa_CSV.zip) | 30.0095 | 121.8666 |
+| 2024 | [Kong-rey](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/releases/download/v1.0.1/2024_21_Kongrey_CSV.zip) | 31.04728 | 121.39330 |
 
-#### Browse and download the complete data
+#### Download the complete data
 
-The complete [data/ directory](data/) contains all 1,071 observation CSV files and 16 documentation files, with the original typhoon, data-type, date and hour folders. Browse individual files using the links above, or clone the repository to obtain the directory.
+The MATLAB programs remain in this repository. Download the observation data from **[Releases v1.0.1](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/releases/tag/v1.0.1)**: the typhoon links above download the corresponding CSV ZIPs. Download all eight packages for the complete dataset (1,071 CSV files and 16 documentation files). Extract each package into the program folder to restore `data/<event>/...`. [Download guide](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/releases/download/v1.0.1/00_README_Download_Guide.txt) · [Map PDF](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/releases/download/v1.0.1/Typhoon_Tracks_and_Observation_Sites.pdf) · [Checksums](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/releases/download/v1.0.1/SHA256SUMS.txt).
 
 ### Read and plot
 
@@ -134,18 +134,18 @@ Contact: Wei Cui (崔巍) — [cuiwei@tongji.edu.cn](mailto:cuiwei@tongji.edu.cn
 
 | 年份 | 台风 | 观测位置纬度（°N） | 观测位置经度（°E） |
 |---|---|---:|---:|
-| 2017 | [卡努](data/2017_20_Khanun/README_zh.md) | 20.2415 | 110.1654 |
-| 2018 | [山竹](data/2018_22_Mangkhut/README_zh.md) | 20.2415 | 110.1654 |
-| 2019 | [利奇马](data/2019_09_Lekima/README_zh.md) | 28.10780 | 120.99680 |
-| 2020 | [黑格比](data/2020_04_Hagupit/README_zh.md) | 27.8 | 121.1 |
-| 2020 | [海高斯](data/2020_07_Higos/README_zh.md) | 22.3038 | 113.0634 |
-| 2022 | [马鞍](data/2022_09_Maon/README_zh.md) | 22.80807 | 113.61808 |
-| 2022 | [梅花](data/2022_12_Muifa/README_zh.md) | 30.0095 | 121.8666 |
-| 2024 | [康妮](data/2024_21_Kongrey/README_zh.md) | 31.04728 | 121.39330 |
+| 2017 | [卡努](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/releases/download/v1.0.1/2017_20_Khanun_CSV.zip) | 20.2415 | 110.1654 |
+| 2018 | [山竹](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/releases/download/v1.0.1/2018_22_Mangkhut_CSV.zip) | 20.2415 | 110.1654 |
+| 2019 | [利奇马](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/releases/download/v1.0.1/2019_09_Lekima_CSV.zip) | 28.10780 | 120.99680 |
+| 2020 | [黑格比](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/releases/download/v1.0.1/2020_04_Hagupit_CSV.zip) | 27.8 | 121.1 |
+| 2020 | [海高斯](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/releases/download/v1.0.1/2020_07_Higos_CSV.zip) | 22.3038 | 113.0634 |
+| 2022 | [马鞍](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/releases/download/v1.0.1/2022_09_Maon_CSV.zip) | 22.80807 | 113.61808 |
+| 2022 | [梅花](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/releases/download/v1.0.1/2022_12_Muifa_CSV.zip) | 30.0095 | 121.8666 |
+| 2024 | [康妮](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/releases/download/v1.0.1/2024_21_Kongrey_CSV.zip) | 31.04728 | 121.39330 |
 
-#### 浏览与下载完整数据
+#### 下载完整数据
 
-完整的 [data/ 目录](data/) 包含全部 1,071 个观测 CSV 和 16 个说明文件，保留“台风 / 数据类型 / 日期 / 小时”的原始目录结构。可通过上表链接浏览各场台风的文件，也可克隆仓库获得完整目录。
+MATLAB 程序保留在本仓库，观测数据统一在 **[Releases v1.0.1](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/releases/tag/v1.0.1)** 下载。点击上表台风名称即可下载该场台风的 CSV ZIP；完整数据需下载全部 8 包（1,071 个 CSV 和 16 个说明文件）。将各包解压到程序目录，即可恢复 `data/<event>/...` 原始结构。[下载说明](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/releases/download/v1.0.1/00_README_Download_Guide.txt) · [地图 PDF](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/releases/download/v1.0.1/Typhoon_Tracks_and_Observation_Sites.pdf) · [附件校验值](https://github.com/TJ-wind/Typhoon-Wind-Observation-Dataset/releases/download/v1.0.1/SHA256SUMS.txt)。
 
 ### 读取与绘图
 
